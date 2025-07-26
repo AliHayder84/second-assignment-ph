@@ -30,7 +30,7 @@ margin-top: 30px;
 margin-left: 50px;
 margin-right: 50px;}
 
-.list-container ul{display: flex;
+.list-container>ul{display: flex;
 gap: 48px;}
 
 .list-container a{text-decoration: none;}
