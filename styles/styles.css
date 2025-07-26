@@ -1,0 +1,47 @@
+
+.noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700 ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* shared styles */
+
+/* navbar styles */
+
+.navbar{display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+margin-top: 30px;
+margin-left: 150px;
+margin-right: 150px;}
+
+.list{display: flex;
+gap: 48px;}
+
+.list a{text-decoration: none;}
+
+.list li{list-style: none;}
+
+
+.home{font-weight: bold;
+color: #252432;
+font-size: small;}
+
+.shop{color: #8987A1;}
+.about-us{color: #8987A1;}
+.cart{font-weight: bold;
+color: #252432;}
