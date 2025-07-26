@@ -61,7 +61,8 @@ margin: 0 auto;}
     .home{display: none;}
     .navbar{
 justify-content: space-between;
-width: 80%;}
+width: 80%;
+margin: 0px;}
 
 .cart{display: flex;}
 }
