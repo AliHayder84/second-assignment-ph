@@ -28,6 +28,7 @@ align-items: center;
 justify-content: space-between;
 margin-top: 30px;
 margin-left: 50px;
+margin-bottom: 282px;
 margin-right: 50px;}
 
 .list-container {display: flex;
@@ -48,6 +49,19 @@ font-size: small;}
 color: #252432;}
 
 
+/* banner styles */
+
+
+.banner-title{font-weight: 700;
+font-size: 65px;
+color: #E95A08;}
+.always{color: #000000;}
+.banner-description{color: #00000075;}
+.banner-container{display: flex;
+justify-content: center;
+align-items: center;}
+
+
 /* mobile device */
 
 @media screen and (max-width:576px) {
@@ -65,4 +79,10 @@ width: 80%;
 margin: 0px;}
 
 .cart{display: flex;}
+
+
+.banner-container{flex-direction: column-reverse;
+margin-top: 28px;}
+.banner-img{width: 100%;}
+
 }
