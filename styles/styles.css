@@ -67,7 +67,7 @@ align-items: center;}
 @media screen and (max-width:576px) {
 
 
-header{max-width: 576px;
+body{max-width: 576px;
 margin: 0 auto;}
 
     .shop{display: none ;}
