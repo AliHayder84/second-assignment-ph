@@ -16,7 +16,8 @@
   font-style: normal;
 }
 
-
+body{max-width: 1440px;
+margin: 0 auto;}
 /* shared styles */
 
 /* navbar styles */
@@ -26,8 +27,8 @@ justify-content: center;
 align-items: center;
 justify-content: space-between;
 margin-top: 30px;
-margin-left: 150px;
-margin-right: 150px;}
+margin-left: 50px;
+margin-right: 50px;}
 
 .list{display: flex;
 gap: 48px;}
@@ -45,3 +46,20 @@ font-size: small;}
 .about-us{color: #8987A1;}
 .cart{font-weight: bold;
 color: #252432;}
+
+
+/* mobile device */
+
+@media screen and (max-width:576px) {
+
+
+    .shop{display: none ;}
+    .about-us{display: none;}
+    .home{display: none;}
+    .navbar{margin-left:auto;
+    margin-right:auto;
+margin-top: 67px;}
+
+.cart{display: flex;}
+
+}
