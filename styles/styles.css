@@ -54,18 +54,14 @@ color: #252432;}
 
 
 header{max-width: 576px;
-margin: 0 auto;
-border: 2px solid red;}
+margin: 0 auto;}
 
     .shop{display: none ;}
     .about-us{display: none;}
     .home{display: none;}
     .navbar{
 justify-content: space-between;
-width: 80%;
-border: 1px solid blue ;}
+width: 80%;}
 
 .cart{display: flex;}
-
-
 }
