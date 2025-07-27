@@ -281,4 +281,17 @@ text-align: center;}
 
 .input{padding-bottom: 2rem;}
 
+.footer-container{flex-direction: column;}
+
+.list-section{flex-direction: column;
+gap: 0px;
+justify-content: start;
+margin-left: 30px;
+width: 100%;}
+
+.icon-container{justify-content: flex-start;
+width: 100%;
+margin-left: 30px;
+margin-top: 20px;}
+
 }
